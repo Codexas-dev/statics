@@ -1,14 +1,14 @@
 /* Codexas service worker: offline fallback + cache aset statis. */
-const VERSION = "codexas-v1";
+const VERSION = "codexas-v2";
 const PRECACHE = `${VERSION}-precache`;
 const RUNTIME = `${VERSION}-runtime`;
 const PRECACHE_URLS = [
   "/",
   "/offline.html",
-  "/logo-mark.png",
-  "/logo-lockup.png",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png",
+  "/logo-mark.webp",
+  "/logo-lockup.webp",
+  "/icons/icon-192.webp",
+  "/icons/icon-512.webp",
 ];
 
 self.addEventListener("install", (event) => {
