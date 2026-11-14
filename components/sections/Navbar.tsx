@@ -42,7 +42,7 @@ export function Navbar() {
   return (
     <header className="relative z-[6] flex items-center gap-x-9 gap-y-5">
       <a href="#beranda" className="inline-flex items-center gap-3" onClick={() => setOpen(false)}>
-        <Image src="/logo-mark.png" alt="" width={36} height={36} className="h-9 w-9" priority />
+        <Image src="/logo-mark.webp" alt="" width={36} height={36} className="h-9 w-9" priority />
         <span className="text-[20px] font-bold tracking-[0.02em] text-white">CODEXAS</span>
       </a>
 
