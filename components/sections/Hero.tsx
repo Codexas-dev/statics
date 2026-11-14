@@ -20,7 +20,7 @@ export function Hero() {
       >
         <Reveal scale={0.85} y={20} delay={0.3}>
           <Image
-            src="/logo-mark.png"
+            src="/logo-mark.webp"
             alt=""
             width={540}
             height={540}
