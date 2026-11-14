@@ -54,7 +54,7 @@ export function Splash() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
             <Image
-              src="/logo-mark.png"
+              src="/logo-mark.webp"
               alt=""
               width={88}
               height={88}
